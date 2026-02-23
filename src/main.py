@@ -1,5 +1,7 @@
 import cv2
 from skimage.metrics import structural_similarity as compare_ssim
+import matplotlib
+matplotlib.use("TkAgg")
 from matplotlib import pyplot as plt
 
 # -----------------------------
